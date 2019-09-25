@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SIMULADOR</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-reboot.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-reboot.min.css">
+	<link rel="stylesheet" type="text/css" href="teste.css">
+	
+	
+  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  
+
+</head>
+	
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  
+  <a class="navbar-brand" href="index.html">GEPECC</a>
+
+  
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">LOTE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="fazenda.html">FAZENDA</a>
+    </li>
+	
+	 <li class="nav-item">
+      <a class="nav-link" href="simulador.html">SIMULADOR</a>
+    </li>
+	
+
+   
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       MAIS 
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="cadastro_lote.html">Lote </a>
+        <a class="dropdown-item" href="cadastro_fazenda.html">Fazenda</a>
+
+      </div>
+    </li>
+  </ul>
+	</nav>
+	
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color: deepskyblue;">BEZERRO: R$340,00 </a>
+    </li>
+   <li class="nav-item">
+      <a class="nav-link" href="#"  style="color: palegreen;">BOI GORDO: R$990,00 </a>
+    </li>
+	 <li class="nav-item">
+      <a class="nav-link" href="#"  style="color: gold;" >VALOR DA ARROBA: R$138,00 </a>
+    </li>
+	
+	
+	
+	
+
+  
+  </ul>
+	</nav>
+	
+	
+
+	<div class="container"><br>
+  <h2>SIMULADOR DE LUCRO </h2>
+  <p>*Investimento calculado com base no periodo de 01 ano</p>  
+<hr>
+  
+	<div class="container">
+<div class="col">
+<br>
+	<label>Inserir Dados: 
+  <input type="text" class="form-control" placeholder="Inserir Dados" >
+  <small>Insira a quantidade de gado que você deseja simular!</small><br>
+  <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Calcular</button>
+  </label>
+   </div>
+</div>
+
+
+<br>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th style="background:#90ee90;">Informações </th>
+        <th style="background:#90ee90;">Quantidade </th>
+        <th style="background:#90ee90;">Valor (R$)</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+	
+	
+	  <tr>
+        <td>Quantidade gado </td>
+        <td>20</td>
+        <td>R$ 20.000</td>
+        
+      </tr>
+	  
+	  
+      <tr>
+        <td>Gastos com ração:</td>
+        <td>5</td>
+        <td>R$ 1.000</td>
+        
+      </tr>
+       <tr>
+        <td>Gastos com sal </td>
+        <td>10</td>
+        <td>R$ 1.500</td>
+        
+      </tr>
+      <tr>
+        <td>Vermifero</td>
+        <td>8</td>
+        <td>R$ 1.000</td>
+        
+      </tr>
+	  
+	  <tr>
+        <td>Aluguel do pasto</td>
+        <td>9</td>
+        <td>R$ 1.000</td>
+        
+      </tr>
+	  
+	  
+	  
+	  <tr>
+        <td style="color:red;"><strong>TOTAL DE DESPESAS:</strong></td>
+        <td style="color:red;"><strong>R$ 4.500</strong></td>
+        
+      </tr>
+	  
+	  <tr>
+        <td style="color:green;"><strong>MARGEM DE LUCRO: </strong> </td>
+        <td style="color:green;"> <strong>R$ 10.000 </strong></td>
+        
+      </tr>
+	  
+	 
+	  
+	  
+	
+	  
+    </tbody>
+  </table>
+  <div class="form-group">
+  <label class="col-md-2 control-label" for="Cadastrar"></label>
+  <div class="col-md-8">
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Imprimir</button>
+    
+  </div>
+</div>
+</div>
+
+
+
+	
+	
+</head>
