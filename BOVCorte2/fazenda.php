@@ -4,7 +4,7 @@
 
 
 <?php
-$sql = "SELECT cod_fazenda, nome FROM fazenda";
+$sql = "SELECT cod_fazenda, nome FROM fazenda ";
 $resultado = mysqli_query($connect, $sql);
 
 $fazenda = mysqli_fetch_object($resultado);
